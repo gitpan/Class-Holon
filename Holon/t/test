@@ -1,0 +1,15 @@
+#!/usr/local/bin/perl -w
+
+
+while(<DATA>)
+	{
+	my $line = 'perl '. $_;
+	print "trying: $line";
+	system($line);
+	}
+
+__DATA__
+getset.t
+molecule.t
+movable_atom.t
+testtube.t
