@@ -10,7 +10,7 @@ require 5.005_62;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.03';
 
 
 # Preloaded methods go here.
