@@ -2,6 +2,7 @@ Changes
 Holon.pm
 MANIFEST
 Makefile.PL
+README
 t/Atom.pm
 t/Helicopter.pm
 t/Molecule.pm

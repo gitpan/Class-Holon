@@ -647,15 +647,12 @@ sub New
 
 1;
 __END__
-# Below is stub documentation for your module. You better edit it!
 
 =head1 NAME
 
-Class::Holon - Complex Object Oriented Classes made easy. 
+Class::Holon -  An experiment in redefining class declarations / object instantiation in perl.
 
 =head1 SYNOPSIS
-
-	# this module is an experiment in perl class declarations.
 
 	package Atom;
 	use Class::Holon 
@@ -672,17 +669,12 @@ Class::Holon - Complex Object Oriented Classes made easy.
 
 =head1 DESCRIPTION
 
-The C<Class::Holon> module allows users to describe complex classes of 
-objects and to create instances of those objects. Furthermore, the
-C<Class::Holon> module allows users to easily create complex 
-relationships between holons, and to define how one holon is part of 
-another holon.
-
-The C<Class::Holon> module was designed to be used by someone designing complex
-classes, that inherit other complex classes, and have a complex
-interrelationship. It can also be used to define classes that resemble
-'normal' perl classes with blessed references to hashes or arrays.
-
+This module is an experiment in redefining class declarations and 
+object instantiation in perl. The intent is to eventually encapsulate
+many of the common things that classes and objects find useful so that
+people do not have to reinvent the wheel to use them. I would also like
+for it to make certain capabilities available to programmers that are
+not available in native perl.
 
 =head1 VOCABULARY
 

@@ -1,0 +1,43 @@
+Class::Holon -  An experiment in redefining class declarations / object instantiation in perl.
+
+
+file: Atom.pm
+-----------------------------------------------------------------------
+	package Atom;
+	use Class::Holon 
+	( 
+		To => DescribeLevel, 
+		Type => Hash,
+		Data => { protons=>0, neutrons=>0, electrons=>0 },
+	);
+	
+
+
+file: atom.pl
+-----------------------------------------------------------------------
+	use Atom;
+	my $atom = Class::Holon::New('Atom');
+
+
+
+The basic features are in place. You can describe levels,
+describe levels that include sublevels, create instances, etc.
+
+The next step is to add the features that actually make it
+worthwhile to use this approach versus the standard perl approach.
+
+
+DSLIP = ADPHP
+	This code is in Alpha state.
+
+AUTHOR
+
+	Greg London
+	http://www.greglondon.com
+
+COPYRIGHT NOTICE
+
+	Copyright (c) 2001 Greg London. All rights reserved.
+	This program is free software; you can redistribute it and/or
+	modify it under the same terms as Perl itself.
+
